@@ -91,7 +91,7 @@ public class ViewDeliveryStatus {
         System.out.println("=============================================\n");
 
     }
-
+//viewStatus for option 1 and 2
     public static void viewStatus() {
         title();
 
