@@ -2,8 +2,8 @@ package sprint_3;
 
 import java.util.*;
 
-
-
+// Author: Low Kah Yee 
+//For Sprint3
 public class Service {
 
     private String foodName;
