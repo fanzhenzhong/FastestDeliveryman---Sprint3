@@ -6,6 +6,7 @@
 package sprint_3;
 
 //Author: Ng Li Poh
+
 public class DeliveryManInfo {
       private String regNo,deliveryManName,ic, phoneNo,email,address,deliveryStatus,workingStatus;
 

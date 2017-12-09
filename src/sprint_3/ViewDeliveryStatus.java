@@ -57,7 +57,7 @@ public class ViewDeliveryStatus {
                     case 2:
                         System.out.print("Please enter the ID of the delivery man: ");
                         String regNo = scan.next();
-                        int a=1;
+                        int a=1;//to see whether want to show error message or not
                         for (int i = 0; i < deliInfo.size(); ++i) {
                             if (regNo.equals(deliInfo.get(i).getRegNo())) {
                                 viewStatus();
