@@ -1,9 +1,8 @@
-
 package sprint_3;
 
 import java.util.*;
 
-//Author: Low Kah Yee 
+
 
 public class Service {
 
