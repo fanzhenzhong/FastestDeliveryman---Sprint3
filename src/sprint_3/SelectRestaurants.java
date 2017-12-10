@@ -5,7 +5,7 @@ import java.util.Scanner;
 import sprint_3.RestaurantInfo;
 
 /**
- *
+ *8
  * @author Chan Yong Hua
  */
 public class SelectRestaurants {
