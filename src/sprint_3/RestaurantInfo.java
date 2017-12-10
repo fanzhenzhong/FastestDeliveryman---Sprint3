@@ -7,7 +7,7 @@ package sprint_3;
 
 /**
  *
- * @author Alex
+ * @author Chan Yong Hua
  */
 public class RestaurantInfo {
     private String resName,Type;

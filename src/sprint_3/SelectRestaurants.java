@@ -6,7 +6,7 @@ import sprint_3.RestaurantInfo;
 
 /**
  *
- * @author Alex
+ * @author Chan Yong Hua
  */
 public class SelectRestaurants {
 
