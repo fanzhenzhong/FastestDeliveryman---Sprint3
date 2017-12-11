@@ -32,7 +32,7 @@ public class ClockIn {
         System.out.println("2. Exit");
        
         do{ 
-        System.out.print("\nPlaese select : ");
+        System.out.print("\nPlaese enter your choice : ");
         selection = scan.nextInt(); 
         }while(selection != 1 && selection !=2);
         
@@ -40,7 +40,7 @@ public class ClockIn {
         {
             System.out.println("\n---------------- FANTEST DELIVERYMAN CLOCK IN ----------------");
             System.out.println("--------------------------------------------------------------");
-            System.out.print("Please enter your ID : ");
+            System.out.print("\nPlease enter your ID : ");
             id = scan.next();
             System.out.print("\nPlease enter your password : ");
             password = scan.next();
@@ -54,13 +54,13 @@ public class ClockIn {
        {
            System.out.println("\n-----------CLOCK IN STATUS--------------");
            System.out.println("----------------------------------------");
-           System.out.println("\nDATE       TIME      ID     NAME");
+           System.out.println("\nDATE        TIME      ID     NAME");
            
            for(int i = 0; i < Info.size(); i++)
            {
                staffInfo = Info.get(i);
                String str = String.format("%s\n",staffInfo);
-               System.out.print(datetime + "  " + str);
+               System.out.print(datetime + "  " + str + "\n");
            }
        }    
     }  
